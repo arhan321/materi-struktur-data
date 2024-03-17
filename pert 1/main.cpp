@@ -1,5 +1,8 @@
 // startup code c++ for pert 1
 
+// instalasi c++ di windows
+// https://code.visualstudio.com/docs/languages/cpp
+
 #include <iostream>
 
 using namespace std;
@@ -36,7 +39,19 @@ int main()
     int *pointer;
     int *pointer_2;
 
-    // // tipe data struct (struktur data)
+    // tipe data enum (enumerasi)
+    enum hari
+    {
+        senin,
+        selasa,
+        rabu,
+        kamis,
+        jumat,
+        sabtu,
+        minggu
+    };
+
+        // // tipe data struct (struktur data)
     // struct buah
     // {
     //     string nama;
@@ -50,15 +65,15 @@ int main()
     //     int harga;
     // };
 
-    // tipe data function (fungsi)
     // void sapa(int a, int b)
     // {
-    //     cout << "Hello World" << a << b << endl;
+    //     cout << "Hello World " << a << " " << b << endl;
     // }
-    // sapa(11, 12);
+    // sapa(10, 20);
 
     // print di console
-    // cout << angka_1 << endl;
+    cout << angka_1 << endl;
+
     // cout << "Size bit dari short int: " << sizeof(si) << endl;
     // cout << "Size bit dari long int: " << sizeof(li) << endl;
 
