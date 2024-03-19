@@ -51,26 +51,6 @@ int main()
         minggu
     };
 
-        // // tipe data struct (struktur data)
-    // struct buah
-    // {
-    //     string nama;
-    //     int harga;
-    // };
-
-    // // tipe data class (kelas)
-    // class mobil
-    // {
-    //     string merk;
-    //     int harga;
-    // };
-
-    // void sapa(int a, int b)
-    // {
-    //     cout << "Hello World " << a << " " << b << endl;
-    // }
-    // sapa(10, 20);
-
     // print di console
     cout << angka_1 << endl;
 
