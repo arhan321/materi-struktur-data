@@ -51,6 +51,13 @@ int main()
         minggu
     };
 
+    // tipe data struct (struktur data)
+    struct buah
+    {
+        string nama;
+        int harga;
+    };
+
     // print di console
     cout << angka_1 << endl;
 
